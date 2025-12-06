@@ -63,6 +63,9 @@ services:
       - POSTGRES_PASSWORD=chirpstack
       - POSTGRES_DB=chirpstack
 
+    ports:
+      - "5432:5432"
+
   redis:
     image: redis:7-alpine
     restart: unless-stopped
