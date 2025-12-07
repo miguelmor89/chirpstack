@@ -86,7 +86,7 @@
 [api]
 
   # interface:port to bind the API interface to.
-  bind="0.0.0.0:8085"
+  bind="0.0.0.0:8080"
 
   # Secret.
   #
